@@ -1,0 +1,232 @@
+:root {
+  --mantine-spacing-xxs: calc(0.5rem * var(--mantine-scale));
+  --mantine-spacing-xxxs: calc(0.25rem * var(--mantine-scale));
+  
+  /* ZK-Lokomotive Custom Theme */
+  --zk-primary-bg: #feffaf;
+  --zk-button-bg: #000000;
+  --zk-button-text: #feffaf;
+  --zk-font-family: 'Sora', sans-serif;
+}
+
+* {
+  font-family: var(--zk-font-family) !important;
+}
+
+body {
+  background-color: var(--zk-primary-bg) !important;
+  font-family: var(--zk-font-family) !important;
+}
+
+/* Global Button Styles - Enhanced Specificity */
+button, 
+.mantine-Button-root,
+[data-button="true"],
+.mantine-Button-root[data-variant="default"],
+.mantine-Button-root[data-variant="filled"],
+.mantine-Button-root[data-variant="outline"],
+.mantine-Button-root[data-variant="light"],
+.mantine-Button-root[data-variant="white"],
+.mantine-Button-root[data-variant="subtle"],
+.mantine-Button-root[data-variant="gradient"],
+.mantine-Button-root[data-size="xs"],
+.mantine-Button-root[data-size="sm"],
+.mantine-Button-root[data-size="md"],
+.mantine-Button-root[data-size="lg"],
+.mantine-Button-root[data-size="xl"],
+.mantine-Button-root .mantine-Button-label,
+.mantine-Button-root .mantine-Button-inner,
+.mantine-Button-root .mantine-Button-section,
+.mantine-Button-root .mantine-Button-leftSection,
+.mantine-Button-root .mantine-Button-rightSection {
+  background-color: var(--zk-button-bg) !important;
+  color: var(--zk-button-text) !important;
+  border-color: var(--zk-button-bg) !important;
+  font-family: var(--zk-font-family) !important;
+}
+
+button:hover,
+.mantine-Button-root:hover,
+[data-button="true"]:hover,
+.mantine-Button-root[data-variant="default"]:hover,
+.mantine-Button-root[data-variant="filled"]:hover,
+.mantine-Button-root[data-variant="outline"]:hover,
+.mantine-Button-root[data-variant="light"]:hover,
+.mantine-Button-root[data-variant="white"]:hover,
+.mantine-Button-root[data-variant="subtle"]:hover,
+.mantine-Button-root[data-variant="gradient"]:hover,
+.mantine-Button-root[data-size="xs"]:hover,
+.mantine-Button-root[data-size="sm"]:hover,
+.mantine-Button-root[data-size="md"]:hover,
+.mantine-Button-root[data-size="lg"]:hover,
+.mantine-Button-root[data-size="xl"]:hover {
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+}
+
+/* Loading button states */
+.mantine-Button-root[data-loading="true"],
+.mantine-Button-root[data-loading="true"] .mantine-Button-label,
+.mantine-Button-root[data-loading="true"] .mantine-Button-inner {
+  background-color: var(--zk-button-bg) !important;
+  color: var(--zk-button-text) !important;
+  border-color: var(--zk-button-bg) !important;
+}
+
+/* Disabled button states */
+.mantine-Button-root[data-disabled="true"],
+.mantine-Button-root[data-disabled="true"] .mantine-Button-label,
+.mantine-Button-root[data-disabled="true"] .mantine-Button-inner {
+  background-color: #666666 !important;
+  color: #cccccc !important;
+  border-color: #666666 !important;
+  opacity: 0.6 !important;
+}
+
+/* Additional button text color overrides */
+.mantine-Button-root *,
+.mantine-Button-root span,
+.mantine-Button-root div {
+  color: var(--zk-button-text) !important;
+}
+
+/* Force button text color with maximum specificity */
+html body .mantine-Button-root,
+html body .mantine-Button-root *,
+html body .mantine-Button-root .mantine-Button-label,
+html body .mantine-Button-root .mantine-Button-inner {
+  color: #feffaf !important;
+}
+
+/* Menu and Action Button Styles */
+html body .mantine-Menu-item,
+html body .mantine-Menu-item *,
+html body .mantine-Menu-item .mantine-Menu-itemLabel,
+html body .mantine-Menu-item .mantine-Menu-itemSection {
+  color: #feffaf !important;
+  background-color: #000000 !important;
+}
+
+html body .mantine-Menu-item:hover {
+  background-color: #333333 !important;
+}
+
+html body .mantine-Menu-dropdown {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+html body .mantine-Menu-label {
+  color: #feffaf !important;
+  background-color: #000000 !important;
+}
+
+/* Popover and Tooltip Styles */
+html body .mantine-Popover-dropdown {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+html body .mantine-Popover-dropdown * {
+  color: #feffaf !important;
+}
+
+html body .mantine-Tooltip-tooltip {
+  background-color: #000000 !important;
+  color: #feffaf !important;
+  border-color: #000000 !important;
+}
+
+html body .mantine-Tooltip-arrow {
+  background-color: #000000 !important;
+  border-color: #000000 !important;
+}
+
+/* Identity Information Styling */
+html body .mantine-Badge-root,
+html body .mantine-Badge-root *,
+html body .mantine-Badge-root .mantine-Badge-label {
+  background-color: #000000 !important;
+  color: #FEFFAF !important;
+  border-color: #000000 !important;
+}
+
+html body .mantine-Badge-root:hover {
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+}
+
+/* BadgeWithCopy specific styling */
+html body .mantine-Badge-root[data-variant="filled"] {
+  background-color: #000000 !important;
+  color: #FEFFAF !important;
+  border-color: #000000 !important;
+}
+
+html body .mantine-Badge-root[data-variant="filled"] .mantine-Badge-label {
+  color: #FEFFAF !important;
+  background-color: #000000 !important;
+}
+
+/* CodeWithCopy styling for identity information */
+html body .mantine-Code-root,
+html body .mantine-Code-root *,
+html body .mantine-Code-root code {
+  background-color: #000000 !important;
+  color: #FEFFAF !important;
+  border-color: #000000 !important;
+}
+
+html body .mantine-Code-root[data-block="true"] {
+  background-color: #000000 !important;
+  color: #FEFFAF !important;
+  border-color: #000000 !important;
+}
+
+/* Background overrides */
+.mantine-AppShell-main,
+.mantine-Container-root,
+.mantine-Paper-root,
+.mantine-Modal-content,
+.mantine-Popover-dropdown {
+  background-color: var(--zk-primary-bg) !important;
+}
+
+/* Text color adjustments for contrast */
+.mantine-Text-root,
+.mantine-Title-root,
+p, span, div {
+  color: #000000 !important;
+}
+
+/* Additional specific component styling */
+.mantine-Stepper-step,
+.mantine-Stepper-stepLabel,
+.mantine-NavLink-root,
+.mantine-Select-input,
+.mantine-TextInput-input,
+.mantine-Textarea-input {
+  background-color: var(--zk-primary-bg) !important;
+  color: #000000 !important;
+  font-family: var(--zk-font-family) !important;
+}
+
+/* Form controls */
+.mantine-Switch-track,
+.mantine-Switch-thumb,
+.mantine-NativeSelect-input {
+  background-color: var(--zk-primary-bg) !important;
+  border-color: #000000 !important;
+}
+
+/* Cards and panels */
+.mantine-Card-root,
+.mantine-Panel-root,
+.mantine-Accordion-content {
+  background-color: var(--zk-primary-bg) !important;
+}
+
+/* Navigation items */
+.mantine-NavLink-root:hover {
+  background-color: rgba(0, 0, 0, 0.1) !important;
+}

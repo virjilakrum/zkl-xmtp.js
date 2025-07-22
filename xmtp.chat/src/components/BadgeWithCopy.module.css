@@ -1,0 +1,17 @@
+.badge {
+  background-color: #000000;
+  color: #feffaf;
+  font-family: 'Sora', sans-serif;
+}
+
+.button {
+  background-color: #000000;
+  color: #feffaf;
+  border-color: #000000;
+  font-family: 'Sora', sans-serif;
+}
+
+.button:hover {
+  background-color: #333333;
+  border-color: #333333;
+}

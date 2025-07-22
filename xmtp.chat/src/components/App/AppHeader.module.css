@@ -1,0 +1,21 @@
+.button {
+  background-color: #000000 !important;
+  color: #feffaf !important;
+  border-color: #000000 !important;
+  font-family: 'Sora', sans-serif !important;
+}
+
+.button:hover {
+  background-color: #333333 !important;
+  border-color: #333333 !important;
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 1080px) {
+  .burger {
+    display: block;
+  }
+}

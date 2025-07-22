@@ -1,0 +1,16 @@
+.root {
+  cursor: pointer;
+}
+
+.root:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.root:focus {
+  border-color: #000000;
+}
+
+.selected {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: #000000;
+}
