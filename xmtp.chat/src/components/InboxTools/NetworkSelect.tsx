@@ -11,7 +11,7 @@ export const NetworkSelect: React.FC = () => {
 
   return (
     <Group gap="xs" justify="space-between">
-      <Text fw="bold">ZK-Lokomotive network</Text>
+              <Text fw="bold">zkλ network</Text>
       <Tooltip
         label={ApiUrls[environment]}
         withArrow

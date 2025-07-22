@@ -1,4 +1,4 @@
-import { Badge, Box, Burger, Button, Flex, Group, Text } from "@mantine/core";
+import { Badge, Box, Burger, Button, Flex, Group, Image, Text } from "@mantine/core";
 import type { Client } from "@xmtp/browser-sdk";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
@@ -7,6 +7,7 @@ import type { ContentTypes } from "@/contexts/XMTPContext";
 import { shortAddress } from "@/helpers/strings";
 import { useSettings } from "@/hooks/useSettings";
 import classes from "./AppHeader.module.css";
+import logo from "@/assets/zkl-icon.png";
 
 const GlowingCircle = () => {
   return (
@@ -55,7 +56,11 @@ export const AppHeader: React.FC<AppHeaderProps> = ({
         <div className={classes.burger}>
           <Burger opened={opened} onClick={toggle} size="sm" />
         </div>
-        <Flex align="center" flex={1}>
+        <Flex align="center" gap="md" flex={1}>
+          <Image src={logo} alt="zkλ" w="24px" h="24px" fit="contain" />
+          <Text size="lg" fw={700} c="text.primary">
+            zkλ
+          </Text>
           <Button
             variant="default"
             aria-label={accountIdentifier || ""}

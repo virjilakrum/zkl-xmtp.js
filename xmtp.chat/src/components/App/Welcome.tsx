@@ -26,16 +26,16 @@ export const Welcome = () => {
   return (
     <Stack gap="xl" py={40} px={px}>
       <Stack gap="md" align="center">
-        <Title order={1}>ZK-Lokomotive is built for developers</Title>
+        <Title order={1}>zkλ is built for developers</Title>
         <Text fs="italic" size="xl">
-          Learn to build with ZK-Lokomotive — using an app built with ZK-Lokomotive
+          Learn to build with zkλ — using an app built with zkλ
         </Text>
       </Stack>
       <Connect />
       <Stack gap="md">
         <Title order={3}>Installation management</Title>
         <Text>
-          Use this tool to manage your installations without an ZK-Lokomotive client.
+          Use this tool to manage your installations without an zkλ client.
         </Text>
         <Group justify="center">
           <Button size="md" onClick={handleInboxToolsClick}>

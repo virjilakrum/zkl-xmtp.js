@@ -35,7 +35,7 @@
   flex-grow: 1;
   display: flex;
   flex-direction: column;
-  --gradient-color: #feffaf;
+  --gradient-color: #ffffff;
 }
 
 .contentScrollFade::before {

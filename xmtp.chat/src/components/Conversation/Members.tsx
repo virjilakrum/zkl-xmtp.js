@@ -126,7 +126,7 @@ export const Members: React.FC<MembersProps> = ({
           environment,
         );
         if (!inboxId) {
-          setMemberIdError("Address not registered on ZK-Lokomotive");
+          setMemberIdError("Address not registered on zkλ");
         } else {
           setMemberIdError(null);
         }

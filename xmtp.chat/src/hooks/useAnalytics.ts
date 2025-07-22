@@ -4,7 +4,7 @@ import { useEffect } from "react";
 export const useAnalytics = () => {
   useEffect(() => {
     const plausible = Plausible({
-      domain: "zk-lokomotive",
+      domain: "zkλ",
     });
     const cleanupAutoPageviews = plausible.enableAutoPageviews();
     return () => {

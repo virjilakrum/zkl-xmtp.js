@@ -39,7 +39,7 @@ export const config = createConfig({
   connectors: [
     injected(),
     coinbaseWallet({
-      appName: "zk-lokomotive",
+              appName: "zkλ",
     }),
     metaMask(),
     walletConnect({ projectId: import.meta.env.VITE_PROJECT_ID }),
@@ -96,4 +96,4 @@ createRoot(document.getElementById("root") as HTMLElement).render(
   </WagmiProvider>,
 );
 
-console.log("[zk-lokomotive] ZK-Lokomotive Browser SDK version:", pkg.version);
+  console.log("[zkλ] zkλ Browser SDK version:", pkg.version);

@@ -57,7 +57,7 @@ export const Connect = () => {
         loading={loading}>
         <WalletConnect />
       </Stepper.Step>
-              <Stepper.Step label="Connect to ZK-Lokomotive" allowStepSelect={false}>
+              <Stepper.Step label="Connect to zkλ" allowStepSelect={false}>
         <ConnectXMTP onDisconnectWallet={handleDisconnectWallet} />
       </Stepper.Step>
     </Stepper>

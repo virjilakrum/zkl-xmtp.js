@@ -2,11 +2,11 @@
   --mantine-spacing-xxs: calc(0.5rem * var(--mantine-scale));
   --mantine-spacing-xxxs: calc(0.25rem * var(--mantine-scale));
   
-  /* ZK-Lokomotive Custom Theme */
-  --zk-primary-bg: #feffaf;
-  --zk-button-bg: #000000;
-  --zk-button-text: #feffaf;
-  --zk-font-family: 'Sora', sans-serif;
+           /* ZK-Lokomotive Custom Theme */
+         --zk-primary-bg: #ffffff;
+         --zk-button-bg: #000000;
+         --zk-button-text: #ffffff;
+         --zk-font-family: 'Sora', sans-serif;
 }
 
 * {
@@ -90,22 +90,22 @@ button:hover,
   color: var(--zk-button-text) !important;
 }
 
-/* Force button text color with maximum specificity */
-html body .mantine-Button-root,
-html body .mantine-Button-root *,
-html body .mantine-Button-root .mantine-Button-label,
-html body .mantine-Button-root .mantine-Button-inner {
-  color: #feffaf !important;
-}
+         /* Force button text color with maximum specificity */
+         html body .mantine-Button-root,
+         html body .mantine-Button-root *,
+         html body .mantine-Button-root .mantine-Button-label,
+         html body .mantine-Button-root .mantine-Button-inner {
+           color: #ffffff !important;
+         }
 
-/* Menu and Action Button Styles */
-html body .mantine-Menu-item,
-html body .mantine-Menu-item *,
-html body .mantine-Menu-item .mantine-Menu-itemLabel,
-html body .mantine-Menu-item .mantine-Menu-itemSection {
-  color: #feffaf !important;
-  background-color: #000000 !important;
-}
+         /* Menu and Action Button Styles */
+         html body .mantine-Menu-item,
+         html body .mantine-Menu-item *,
+         html body .mantine-Menu-item .mantine-Menu-itemLabel,
+         html body .mantine-Menu-item .mantine-Menu-itemSection {
+           color: #ffffff !important;
+           background-color: #000000 !important;
+         }
 
 html body .mantine-Menu-item:hover {
   background-color: #333333 !important;
@@ -116,10 +116,10 @@ html body .mantine-Menu-dropdown {
   border-color: #000000 !important;
 }
 
-html body .mantine-Menu-label {
-  color: #feffaf !important;
-  background-color: #000000 !important;
-}
+         html body .mantine-Menu-label {
+           color: #ffffff !important;
+           background-color: #000000 !important;
+         }
 
 /* Popover and Tooltip Styles */
 html body .mantine-Popover-dropdown {
@@ -127,15 +127,15 @@ html body .mantine-Popover-dropdown {
   border-color: #000000 !important;
 }
 
-html body .mantine-Popover-dropdown * {
-  color: #feffaf !important;
-}
+         html body .mantine-Popover-dropdown * {
+           color: #ffffff !important;
+         }
 
-html body .mantine-Tooltip-tooltip {
-  background-color: #000000 !important;
-  color: #feffaf !important;
-  border-color: #000000 !important;
-}
+         html body .mantine-Tooltip-tooltip {
+           background-color: #000000 !important;
+           color: #ffffff !important;
+           border-color: #000000 !important;
+         }
 
 html body .mantine-Tooltip-arrow {
   background-color: #000000 !important;
@@ -143,13 +143,13 @@ html body .mantine-Tooltip-arrow {
 }
 
 /* Identity Information Styling */
-html body .mantine-Badge-root,
-html body .mantine-Badge-root *,
-html body .mantine-Badge-root .mantine-Badge-label {
-  background-color: #000000 !important;
-  color: #FEFFAF !important;
-  border-color: #000000 !important;
-}
+         html body .mantine-Badge-root,
+         html body .mantine-Badge-root *,
+         html body .mantine-Badge-root .mantine-Badge-label {
+           background-color: #000000 !important;
+           color: #ffffff !important;
+           border-color: #000000 !important;
+         }
 
 html body .mantine-Badge-root:hover {
   background-color: #333333 !important;
@@ -157,40 +157,66 @@ html body .mantine-Badge-root:hover {
 }
 
 /* BadgeWithCopy specific styling */
-html body .mantine-Badge-root[data-variant="filled"] {
-  background-color: #000000 !important;
-  color: #FEFFAF !important;
-  border-color: #000000 !important;
-}
+         html body .mantine-Badge-root[data-variant="filled"] {
+           background-color: #000000 !important;
+           color: #ffffff !important;
+           border-color: #000000 !important;
+         }
 
-html body .mantine-Badge-root[data-variant="filled"] .mantine-Badge-label {
-  color: #FEFFAF !important;
-  background-color: #000000 !important;
-}
+         html body .mantine-Badge-root[data-variant="filled"] .mantine-Badge-label {
+           color: #ffffff !important;
+           background-color: #000000 !important;
+         }
 
 /* CodeWithCopy styling for identity information */
-html body .mantine-Code-root,
-html body .mantine-Code-root *,
-html body .mantine-Code-root code {
-  background-color: #000000 !important;
-  color: #FEFFAF !important;
-  border-color: #000000 !important;
-}
+         html body .mantine-Code-root,
+         html body .mantine-Code-root *,
+         html body .mantine-Code-root code {
+           background-color: #000000 !important;
+           color: #ffffff !important;
+           border-color: #000000 !important;
+         }
 
-html body .mantine-Code-root[data-block="true"] {
-  background-color: #000000 !important;
-  color: #FEFFAF !important;
-  border-color: #000000 !important;
-}
+         html body .mantine-Code-root[data-block="true"] {
+           background-color: #000000 !important;
+           color: #ffffff !important;
+           border-color: #000000 !important;
+         }
 
-/* Background overrides */
-.mantine-AppShell-main,
-.mantine-Container-root,
-.mantine-Paper-root,
-.mantine-Modal-content,
-.mantine-Popover-dropdown {
-  background-color: var(--zk-primary-bg) !important;
-}
+         /* Background overrides */
+         .mantine-AppShell-main,
+         .mantine-Container-root,
+         .mantine-Paper-root,
+         .mantine-Modal-content,
+         .mantine-Popover-dropdown {
+           background-color: var(--zk-primary-bg) !important;
+         }
+
+         /* Conversation page specific background */
+         .mantine-AppShell-main,
+         .mantine-Container-root,
+         .mantine-Paper-root,
+         .mantine-Modal-content,
+         .mantine-Popover-dropdown,
+         .mantine-AppShell-content,
+         .mantine-AppShell-main,
+         .mantine-Stack-root,
+         .mantine-Group-root,
+         .mantine-ScrollArea-viewport,
+         .mantine-ScrollArea-root,
+         .mantine-Stack-root > *,
+         .mantine-Group-root > * {
+           background-color: #ffffff !important;
+         }
+
+         /* Message list and conversation area */
+         .mantine-ScrollArea-viewport,
+         .mantine-ScrollArea-root,
+         .mantine-Stack-root,
+         .mantine-Group-root,
+         .mantine-Paper-root[data-with-border="true"] {
+           background-color: #ffffff !important;
+         }
 
 /* Text color adjustments for contrast */
 .mantine-Text-root,

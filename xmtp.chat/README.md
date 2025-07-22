@@ -1,4 +1,4 @@
-# zk-lokomotive app
+# zkλ app
 
 Use this React app as a tool to start building an app with XMTP.
 
