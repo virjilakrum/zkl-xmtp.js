@@ -39,7 +39,7 @@ export const config = createConfig({
   connectors: [
     injected(),
     coinbaseWallet({
-              appName: "zkλ",
+              appName: "zk-lambda",
     }),
     metaMask(),
     walletConnect({ projectId: import.meta.env.VITE_PROJECT_ID }),
@@ -96,4 +96,4 @@ createRoot(document.getElementById("root") as HTMLElement).render(
   </WagmiProvider>,
 );
 
-  console.log("[zkλ] zkλ Browser SDK version:", pkg.version);
+  console.log("[zk-lambda] zkλ Browser SDK version:", pkg.version);
